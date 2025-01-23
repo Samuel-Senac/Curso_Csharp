@@ -4,12 +4,16 @@
     {
         static void Main(string[] args)
         {
-            for (int i = 10; i >= 1; i--)
+            for (int i = 1; i <= 50; i ++)
             {
-                Console.WriteLine(i);
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i);
+                }
             }
-
-            Console.WriteLine("Feliz Ano Novo!");
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine("O programa deu certo(mais ou menos)!");
+            Console.WriteLine("------------------------------------");
         }
     }
 }
