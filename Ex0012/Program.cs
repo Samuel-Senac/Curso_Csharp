@@ -4,15 +4,20 @@
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i <= 50; i ++)
+            int final;
+
+            Console.Write("Digite um número: ");
+            final = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i <= final; i ++)
             {
-                if (i % 2 == 0)
+                if (i % 2 == 1)
                 {
-                    Console.WriteLine(i);
+                    Console.Write("{0}, ",i);
                 }
             }
             Console.WriteLine("------------------------------------");
-            Console.WriteLine("O programa deu certo(mais ou menos)!");
+            Console.WriteLine("O programa deu certo!(mais ou menos!)");
             Console.WriteLine("------------------------------------");
         }
     }
