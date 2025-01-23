@@ -4,17 +4,13 @@
     {
         static void Main(string[] args)
         {
-            double casa, salario, anos;
+            double valorcasa, salario;
 
             Console.WriteLine("Qual o valor da casa: ");
-            casa = Convert.ToDouble(Console.ReadLine());
+            valorcasa = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Qual a sua renda atual: ");
             salario = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Em quantos anos será quitada a sua divída referente a casa: ");
-            anos = Convert.ToDouble(Console.ReadLine());
-
             
         }
     }
