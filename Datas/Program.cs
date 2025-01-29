@@ -25,6 +25,11 @@
 
             Console.WriteLine(numeros.First());
             Console.WriteLine(numeros.Last());
+            Console.WriteLine();
+            Console.WriteLine(numeros.Max());
+            Console.WriteLine(numeros.Min());
+            Console.WriteLine();
+            Console.WriteLine(numeros.Average());
         }
     }
 }
